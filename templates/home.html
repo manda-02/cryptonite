@@ -7,14 +7,23 @@ body {
 }
 
 h1 {
+  display: flex;
   color: white;
   font-family: verdana;
   font-size: 300%;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image {
+  margin: 0%;
+  padding: 10%;
+  margin-bottom: 0%;
+  background-size: 100%;
   background-image: url('Web_Background1.1.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  margin-inline: -1%;
 }
 
 h2 {
@@ -42,7 +51,7 @@ a:link {
 }
 
 a:visited {
-  color: none;
+  color: white;
   background-color: none;
   text-decoration: none;
 }
@@ -54,33 +63,57 @@ a:hover {
 }
 
 a:active {
-  color: yellow;
+  color: green;
   background-color: none;
   text-decoration: none;
 }
+
+.home-button {
+  color: green;
+  font-family: verdana;
+  font-size: 300%;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: black;
+  margin: 0%;
+  margin-inline: -1%;
+  margin-bottom: -2%;
+  padding: 3%;
+}
+
 </style>
 </head>
-<body >
+<body>
+  <div style="margin-top: -2%; margin-inline: -1%; margin-bottom: 0; background-color:black; padding: 3%; padding-left: 5%;">
+    <p style="padding-left: 1%;">
+      <a href="home.html" class="home-button">C</a>
+      <a href="A1.html" style="padding-left: 5%;">Assign1</a>
+      <a href="A2.html" style="padding-left: 5%">Assign2</a>
+      <a href="A3.html" style="padding-left: 5%">Assign3</a>
+    </p>
+  </div>
 
-<p style="background-color:black;">
-<a href="A1.html">Assign1</a>
-<a href="A2.html">Assign2</a>
-<a href="A3.html">Assign3</a>
-</p>
+  <h1 class="background-image" style="text-align:center;">CRYPTOnite</h1>
 
-<h1>Cryptonite</h1>
+<div style="padding: 10%; padding-top: 5%; padding-bottom: 5%;">
+  <h2>About Us</h2>
+  <p>This project will showcase our analysis of the architecture of Bitcoin Core. The information will be conveyed in the form of reports and presentations, 
+    highlighting concepts such as Conceptual Architecture, Concrete Aechitecture and Architectural Enhancement.</p>
 
-<h2>About Us</h2>
-<p>This project will showcase our analysis of the architecture of Bitcoin Core. The information will be conveyed in the form of reports and presentations, 
-  highlighting concepts such as Conceptual Architecture, Concrete Aechitecture and Architectural Enhancement.</p>
+  <h3 style="padding-top: 5%;">Meet the Team</h3>
+  <p>Amanda Misek Team Lead 19aam18@queensu.ca</p>
+  <p>Vanshita Uthra Presenter 19vu1@queensu.ca</p>
+  <p>Christian D'Souza Presenter 20ceds@queensu.ca</p>
+  <p>Bilal Imran 20mbi@queensu.ca</p>
+  <p>Benjamin Tiong 19bkyt@queensu.ca</p>
+  <p>Decheng Zhu (Eric) 18dz6@queensu.ca</p>
+</div>
 
-<h3>Meet the Team</h3>
-<p>Amada Misek Team Lead 19aam18@queensu.ca</p>
-<p>Vanshita Uthra Presenter 19vu1@queensu.ca</p>
-<p>Christian D'Souza Presenter 20ceds@queensu.ca</p>
-<p>Bilal Imran 20mbi@queensu.ca</p>
-<p>Benjamin Tiong 19bkyt@queensu.ca</p>
-<p>Decheng Zhu (Eric) 18dz6@queensu.ca</p>
+<div>
+  <p style="color: green; font-size: 100%; text-align: end; padding-right: 5%; margin-top: 0%;" class="footer">@2023 CRYPTOnite</p>
+</div>
 
 </body>
 </html>
