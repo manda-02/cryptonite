@@ -15,6 +15,24 @@ h1 {
   justify-content: center;
 }
 
+h2 {
+  color: MediumSeaGreen;
+  font-family: verdana;
+  font-size: 200%;
+}
+
+h3 {
+  color: MediumSeaGreen;
+  font-family: verdana;
+  font-size: 200%;
+}
+
+p {
+  color: black;
+  font-family: courier;
+  font-size: 120%;
+}
+
 .background-image {
   margin: 0%;
   padding: 10%;
@@ -26,52 +44,11 @@ h1 {
   margin-inline: -1%;
 }
 
-h2 {
-  color: green;
-  font-family: verdana;
-  font-size: 200%;
-}
-
-h3 {
-  color: green;
-  font-family: verdana;
-  font-size: 200%;
-}
-
-p {
-  color: black;
-  font-family: courier;
-  font-size: 120%;
-}
-
-a:link {
-  color: white;
-  background-color: none;
-  text-decoration: none;
-}
-
-a:visited {
-  color: white;
-  background-color: none;
-  text-decoration: none;
-}
-
-a:hover {
-  color: green;
-  background-color: none;
-  text-decoration: none;
-}
-
-a:active {
-  color: green;
-  background-color: none;
-  text-decoration: none;
-}
-
 .home-button {
-  color: green;
+  color: MediumSeaGreen;
+  text-decoration: none;
   font-family: verdana;
-  font-size: 300%;
+  font-size: 400%;
   font-weight: 600;
 }
 
@@ -88,9 +65,11 @@ center {
   font-family: courier;
   font-size: 120%;
 }
+
 img {
   border-radius: 58%;
 }
+
 .center {
   display: block;
   margin-left: auto;
@@ -98,142 +77,121 @@ img {
   width: 35%;
 }
 
+#leftbox {
+  float: left;
+  background: white;
+  width: 32%;
+  height: 280px;
+}
+
+#middlebox{
+   float: left;
+   background: white;
+   width: 32%;
+   height: 280px;
+}
+
+#rightbox{
+  float: right;
+  background: white;
+  width: 32%;
+  height: 280px;
+}
+
+#leftbox {
+  float: left;
+  background: white;
+  width: 32%;
+  height: 280px;
+}
+
+#middlebox{
+  float: left;
+  background: white;
+  width: 32%;
+  height: 280px;
+}
+
+#rightbox{
+  float: right;
+  background: white;
+  width: 32%;
+  height: 280px;
+}
+
 </style>
 </head>
-<body>
-  <div style="margin-top: -2%; margin-inline: -1%; margin-bottom: 0; background-color:black; padding: 3%; padding-left: 5%;">
-    <p style="padding-left: 1%;">
-      <a href="home.html" class="home-button">C</a>
-      <a href="A1.html" style="padding-left: 5%;">Assign1</a>
-      <a href="A2.html" style="padding-left: 5%">Assign2</a>
-      <a href="A3.html" style="padding-left: 5%">Assign3</a>
-    </p>
-  </div>
 
-  <h1 class="background-image" style="text-align:center;">CRYPTOnite</h1>
+<body>
+<div style="margin-top: -2%; margin-inline: -1%; margin-bottom: 0; background-color:black; padding: 3%; padding-left: 5%;">
+<p style="padding-left: 1%;">
+
+<a href="home.html" class="home-button">C</a>
+
+<a href="A1.html" style="color: white; text-decoration: none; font-size: 250%; padding-left: 5%;">Assign1</a>
+
+<a href="A2.html" style="color: white; text-decoration: none; font-size: 250%; padding-left: 5%">Assign2</a>
+
+<a href="A3.html" style="color: white; text-decoration: none; font-size: 250%; padding-left: 5%">Assign3</a>
+
+</p>
+</div>
+
+<h1 class="background-image" style="text-align: center;">CRYPTOnite</h1>
 
 <div style="padding: 10%; padding-top: 5%; padding-bottom: 5%;">
-  <h2>About Us</h2>
-  <p>This project will showcase our analysis of the architecture of Bitcoin Core. The information will be conveyed in the form of reports and presentations, 
+<h2>About Us</h2>
+<p>This project will showcase our analysis of the architecture of Bitcoin Core. The information will be conveyed in the form of reports and presentations, 
     highlighting concepts such as Conceptual Architecture, Concrete Architecture and Architectural Enhancement.</p>
 
-  <h3 style="padding-top: 5%;">Meet the Team</h3>
-  <style>
-    #leftbox {
-        float:left;
-        background:white;
-        width:32%;
-        height:280px;
-    }
-    #middlebox{
-        float:left;
-        background:white;
-        width:32%;
-        height:280px;
-    }
-    #rightbox{
-        float:right;
-        background:white;
-        width:32%;
-        height:280px;
-    }
-  
-  </style>
-  
-  <body>
-    <div id = "boxes">
+<h3 style="padding-top: 5%;">Meet the Team</h3>
+<div id = "boxes">
+<div id = "leftbox">
+<img src="Amanda Misek.jpeg" alt="Amanda" style="width: 140px; height: 140px; class: center;">
+<center>Amanda Misek </center>
+<center> Team Lead</center>
+<center> 19aam18@queensu.ca</center>
+</div>
          
-        <div id = "leftbox">
-          <body>
-            <img src="Amanda Misek.jpeg" alt="Amanda" width="140" height ="140" class="center">
-            <center>Amanda Misek </center>
-            <center> Team Lead</center>
-            <center> 19aam18@queensu.ca</center>
-          </body>
-        </div>
+<div id = "middlebox">
+<img src="Vanshita Headshot.jpeg" alt="Vanshita" style="width:140px; height: 140px; class: center;">
+<center>Vanshita Uthra </center>
+<center> Presenter</center>
+<center> 19vu1@queensu.ca</center>
+</div>
          
-        <div id = "middlebox">
-          <style>
-            
-            
-          </style>
-          <body>
-            <img src="Vanshita Headshot.jpeg" alt="Vanshita" width="140" height ="140" class="center">
-            <center>Vanshita Uthra </center>
-            <center> Presenter</center>
-            <center> 19vu1@queensu.ca</center>
-          </body>
-        </div>
+<div id = "rightbox">
+<img src="christian.png" alt="Christian" style="width: 140px; height: 140px; class: center;">
+<center>Christian D'Souza </center>
+<center> Presenter</center>
+<center> 20ceds@queensu.ca</center>
+</div>
+
+<div id = "leftbox">
+<img src="bilal.jpg" alt="Bilal" style="width: 140px; height: 140px; class: center;">
+<center> Bilal Imran </center>
+<center> 20mbi@queensu.ca </center>
+</div>
          
-        <div id = "rightbox">
-          <body>
-            <img src="christian.png" alt="Christian" width="140" height ="140" class="center">
-            <center>Christian D'Souza </center>
-            <center> Presenter</center>
-            <center> 20ceds@queensu.ca</center>
-  
-          </body>
-            
-        </div>
-    </div>
-  </body>
-  
-  <style>
-    #leftbox {
-        float:left;
-        background:white;
-        width:32%;
-        height:280px;
-    }
-    #middlebox{
-        float:left;
-        background:white;
-        width:32%;
-        height:280px;
-    }
-    #rightbox{
-        float:right;
-        background:white;
-        width:32%;
-        height:280px;
-    }
-  </style>
-  
-  <body>
-    <div id = "boxes">
-        <div id = "leftbox">
-          <body>
-            <img src="bilal.jpg" alt="Bilal" width="140" height ="140" class="center">
-            <center> Bilal Imran </center>
-            <center> 20mbi@queensu.ca </center>
-          </body>
-        </div>
+<div id = "middlebox">
+<img src="ben.jpg" alt="Ben" style="width: 140px; height: 140px; class: center;">
+<center>Benjamin Tiong </center>
+<center> 19bkyt@queensu.ca</center>
+</div>
          
-        <div id = "middlebox">
-          <body>
-            <img src="ben.jpg" alt="Ben" width="140" height ="140" class="center">
-            <center>Benjamin Tiong </center>
-            <center> 19bkyt@queensu.ca</center>
-          </body>
-        </div>
-         
-        <div id = "rightbox">
-          <body>
-            <img src="eric.png" alt="Vanshita" width="140" height ="140" class="center">
-            <center>Decheng Zhu (Eric) </center>
-            <center> 18dz6@queensu.ca</center>
-          </body>
-            
-        </div>
-    </div>
-  </body>
+<div id = "rightbox">
+<img src="eric.png" alt="Vanshita" style="width: 140px; height: 140px; class: center;">
+<center>Decheng Zhu (Eric) </center>
+<center> 18dz6@queensu.ca</center>
+</div>
+</div>
 
 </div>
 
-</body>
+
 <div style="padding-top: 30%;">
   <p style="color: green; font-size: 100%; text-align: end; padding-right: 5%; margin-top: 5%;" class="footer">@2023 CRYPTOnite</p>
 </div>
 
+</body>
 </html>
-
